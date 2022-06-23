@@ -20,6 +20,26 @@ jobs:
     image: node:14
     steps:
       - init: echo 'init'
+  job5:
+    requires: [job1]
+    image: node:14
+    steps:
+      - init: echo 'init'
+  job6:
+    requires: [job2]
+    image: node:14
+    steps:
+      - init: echo 'init'
+  job7:
+    requires: [job3]
+    image: node:14
+    steps:
+      - init: echo 'init'
+  job8:
+    requires: [job4]
+    image: node:14
+    steps:
+      - init: echo 'init'
 
 stages:
   starfish:
