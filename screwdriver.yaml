@@ -69,3 +69,7 @@ stages:
     jobs: [job3, job4]
     description: "Prod deploy jobs"
     color: '#00FFFF'
+  goldfish:
+    jobs: [job7, job10]
+    description: "Prod deploy jobs"
+    color: 'red'
