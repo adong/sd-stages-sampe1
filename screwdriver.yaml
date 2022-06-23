@@ -72,4 +72,4 @@ stages:
   goldfish:
     jobs: [job7, job10]
     description: "Prod deploy jobs"
-    color: 'red'
+    color: '#ff0000'
