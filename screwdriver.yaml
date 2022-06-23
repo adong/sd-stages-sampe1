@@ -64,16 +64,20 @@ jobs:
 stages:
   starfish:
     jobs: [job3, job4]
-    description: "Prod deploy jobs"
+    description: "starfish deploy jobs"
   seahorse:
     jobs: [job3, job4]
-    description: "Prod deploy jobs"
+    description: "seahorse starfish satarfish deploy jobs"
     color: '#00FFFF'
   goldfish:
     jobs: [job7, job10]
-    description: "Prod deploy jobs"
+    description: "goldfish deploy jobs"
     color: '#ff0000'
   sealion:
     jobs: [job8, job5]
-    description: "Prod deploy jobs"
+    description: "sealion deploy jobs"
     color: '#00FFFF'
+  dolphin:
+    jobs: [job2, job1]
+    description: "dolphin deploy jobs"
+
