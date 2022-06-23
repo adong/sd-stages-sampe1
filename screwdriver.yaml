@@ -73,3 +73,7 @@ stages:
     jobs: [job7, job10]
     description: "Prod deploy jobs"
     color: '#ff0000'
+  sealion:
+    jobs: [job8, job5]
+    description: "Prod deploy jobs"
+    color: '#00FFFF'
