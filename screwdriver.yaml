@@ -71,10 +71,12 @@ stages:
   goldfish:
     jobs: [job7, job10]
     description: "goldfish deploy jobs"
-
   sealion:
     jobs: [job8, job5]
     description: "sealion deploy jobs"
   dolphin:
-    jobs: [job2, job1]
-    description: "dolphin deploy jobs"
+    jobs: [job2]
+    description: "dolphin deploy job2"
+  shark:
+    jobs: [job1]
+    description: "shark deploy job1"
